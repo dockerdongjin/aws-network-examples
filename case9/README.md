@@ -13,4 +13,9 @@
 
 -----
 서비스 -> EC2 -> 좌측메뉴의 "ELASTIC BLOCK STORE"에서 볼륨 메뉴를 클릭한다.
-![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img00.png)
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img00.png)
+
+볼륨생성을 클릭한후 원하는 사이즈와 저장방식을 선택하고 생성 버튼을 클릭한다.
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img01.png)
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img02.png)
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img03.png)
