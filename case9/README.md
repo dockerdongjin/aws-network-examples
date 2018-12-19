@@ -37,4 +37,5 @@
 1. $ ls /dev/sdf -al
 2. $ mount /dev/sdf /mnt
 > ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img11.png)
+
 /mnt 에 9.2G 의 저장공간이 생겼다.
