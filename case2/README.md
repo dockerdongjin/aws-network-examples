@@ -2,8 +2,12 @@
 
 VPC 구성하기
 
+1. VPC 만들기.
+2. Subnet 만들기.
+3. 인스턴스 만들기.
+4. 인터넷 게이트웨이 만들기.
+5. 라우팅 테이블 편집.
 
-# Dongjin AWS VPC TEST
 
 VPC와 AWS의 몇몇 기능을 이용해 그려본 예시입니다.
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/VPC.PNG)
