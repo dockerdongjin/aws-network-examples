@@ -23,3 +23,6 @@
 만들어진 볼륨에 이름을 붙여놓는다. (작업시 확인하기 쉽다.)
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img05.png)
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img06.png)
+만들어진 볼륨을 인스턴스에 연결한다.
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img07.png)
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img08.png)
