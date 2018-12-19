@@ -36,7 +36,7 @@ VPC를 만들고 나면 Subnet을 생성할 차례입니다. 위 화면에서처
 
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/img/sub_3.jpg)
 
-Subnet이 생성된 모습입니다.
+Subnet이 생성된 모습입니다.<br><br>
 
 3. 인스턴스 만들기
 
@@ -55,7 +55,7 @@ Subnet이 생성된 모습입니다.
 
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/img/ec2_4.jpg)
 
-그렇게 해서 인스턴스까지 생성된 모습입니다. 위처럼 public ip가 없다면 좌측 메뉴의 탄력적 IP메뉴에서 IP를 할당받아 적용할 수 있으며 그렇지 않으면 생성단계떄 인스턴스 구성 항목에서 public ip를 가진채로 생성할수도 있습니다.
+그렇게 해서 인스턴스까지 생성된 모습입니다. 위처럼 public ip가 없다면 좌측 메뉴의 탄력적 IP메뉴에서 IP를 할당받아 적용할 수 있으며 그렇지 않으면 생성단계떄 인스턴스 구성 항목에서 public ip를 가진채로 생성할수도 있습니다.<br><br>
 
 4. 인터넷 게이트웨이 만들기
 
@@ -75,7 +75,7 @@ VPC를 만들고, Subnet을 만들고, 인스턴스를 만들었으니 이제 �
 
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/img/igw_4.jpg)
 
-이렇게 attached상태가 뜨며 연결이 됩니다.
+이렇게 attached상태가 뜨며 연결이 됩니다.<br><br>
 
 5. 라우팅 테이블
 
