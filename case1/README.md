@@ -17,4 +17,5 @@
 > Type : Public Hosted Zone (기본값으로 두자)
 
 ![도메인등록3](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-3.jpg)<br><br><br>
+![도메인등록4](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-4.jpg)<br><br><br>
 
