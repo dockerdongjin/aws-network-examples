@@ -21,6 +21,6 @@
 
 > [인스턴스 이미지 만들기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case10) (완료)
 
-> [AMI 다른 리전으로 복사하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case11)
+> [AMI 다른 리전으로 복사하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case11) (완료)
 
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1.png)
