@@ -9,8 +9,6 @@ VPC 구성하기
 5. 라우팅 테이블 편집.
 
 
-VPC와 AWS의 몇몇 기능을 이용해 그려본 예시입니다.
-![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/VPC.PNG)
 
 1. VPC 만들기.
 
