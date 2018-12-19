@@ -5,6 +5,7 @@ VPC 구성하기
 
 # Dongjin AWS VPC TEST
 
+VPC와 AWS의 몇몇 기능을 이용해 그려본 예시입니다.
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/VPC.PNG)
 
 1. VPC 만들기.
@@ -92,3 +93,5 @@ VPC ID를 보고 자신이 설정하려는 VPC의 라우팅 테이블이 맞는�
 
 위처럼 입력하시면 인터넷과 연결이 됩니다. 오른쪽은 인터넷 게이트웨이의 id입니다.
 
+
+이렇게 완성된 상태를 그림으로 그려보면-
