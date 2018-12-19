@@ -34,3 +34,22 @@ VPC를 만들고 나면 Subnet을 생성할 차례입니다. 위 화면에서처
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/sub_3.jpg)
 
 Subnet이 생성된 모습입니다.
+
+3. 인스턴스 만들기
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/ec2_1.jpg)
+
+이제 인스턴스를 만들 차례로 서비스에 EC2 메뉴로 이동하여 좌측의 인스턴스 메뉴로 이동한 모습입니다.
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/ec2_2.jpg)
+
+인스턴스 시작 버튼으로 들어온 화면이며 위에 형광펜으로 표시된 항목들을 진행하여 인스턴스를 생성할 수 있습니다.
+그중 인스턴스 구성 항목에서는 전에 만든 VPC와 서브넷을 선택하여 인스턴스를 그 안에 생성 할 수가 있습니다.
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/ec2_3.jpg)
+
+마지막 검토단계까지 입력한 후 시작 버튼을 누르면 키파일을 선택하는 창이 나오는데 키파일이 있다면 기존 키파일을, 없다면 새로 생성을 하시면 됩니다.
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/ec2_4.jpg)
+
+그렇게 해서 인스턴스까지 생성된 모습입니다.
