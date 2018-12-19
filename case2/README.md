@@ -95,3 +95,5 @@ VPC ID를 보고 자신이 설정하려는 VPC의 라우팅 테이블이 맞는�
 
 
 이렇게 완성된 상태를 그림으로 그려보면-
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/finish.jpg)
