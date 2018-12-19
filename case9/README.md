@@ -3,12 +3,10 @@
 다음과 같은 단계로 EBS를
 
 
-EBS 볼륨 생성하기
-EC2 인스턴스에 EBS 볼륨 장착하기
-EC2 인스턴스에서 EBS 볼륨 포맷하기
-EC2 인스턴스에서 EBS 볼륨 마운트하기
-EC2 인스턴스에서 EBS 볼륨 제거하기
+*EBS 볼륨 생성하기
+*EC2 인스턴스에 EBS 볼륨 장착하기
+*EC2 인스턴스에서 EBS 볼륨 포맷하기
+*EC2 인스턴스에서 EBS 볼륨 마운트하기
+*EC2 인스턴스에서 EBS 볼륨 제거하기
 
 
-![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1.png)
- 
