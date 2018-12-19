@@ -7,4 +7,4 @@
 ![도메인등록1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-1.jpg)
 
 
-2. DNS Management영역에 *Create Hosted Zone* 버튼을 클릭합니다.
+2. DNS Management영역에 __Create Hosted Zone__ 버튼을 클릭합니다.
