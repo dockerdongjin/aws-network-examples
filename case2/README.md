@@ -73,3 +73,22 @@ VPC를 만들고, Subnet을 만들고, 인스턴스를 만들었으니 이제 �
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/igw_4.jpg)
 
 이렇게 attached상태가 뜨며 연결이 됩니다.
+
+5. 라우팅 테이블
+
+인터넷 게이트웨이까지 연결하고 나면, 라우팅 테이블을 작성해줘야 합니다.
+라우팅 테이블 메뉴도 또한 서비스 VPC메뉴에서 좌측을 보시면 있습니다.
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/route_1.jpg)
+
+보시면 자동으로 라우팅 테이블이 하나 생겨나 있는걸 보실 수 있습니다.
+VPC ID를 보고 자신이 설정하려는 VPC의 라우팅 테이블이 맞는지 확인하신 후에 하단의 Routes탭을 클릭하여 edit routes로 들어갑니다.
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/route_2.jpg)
+
+들어가시면 이런 화면이실 겁니다. add route 눌러줍니다.
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/route_3.jpg)
+
+위처럼 입력하시면 인터넷과 연결이 됩니다. 오른쪽은 인터넷 게이트웨이의 id입니다.
+
