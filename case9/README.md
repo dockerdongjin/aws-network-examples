@@ -1,8 +1,14 @@
-**AWS기초 및 활용** 
+**가상 스토리지를 제공하는 EBS** 
+-----
+다음과 같은 단계로 EBS를
 
-VPC 구성하기
 
+EBS 볼륨 생성하기
+EC2 인스턴스에 EBS 볼륨 장착하기
+EC2 인스턴스에서 EBS 볼륨 포맷하기
+EC2 인스턴스에서 EBS 볼륨 마운트하기
+EC2 인스턴스에서 EBS 볼륨 제거하기
 
-# Dongjin AWS VPC TEST
 
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1.png)
+ 
