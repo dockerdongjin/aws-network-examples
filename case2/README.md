@@ -22,7 +22,7 @@ VPC서비스에 들어와서 좌측의 VPCs메뉴를 클릭하여 들어오면 �
 
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/img/vpc_3.jpg)
 
-만들어진 VPC는 위와 같은 모습으로 확인할 수 있습니다.<br>
+만들어진 VPC는 위와 같은 모습으로 확인할 수 있습니다.<br><br>
 
 2. Subnet 생성.
 
