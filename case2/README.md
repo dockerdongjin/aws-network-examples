@@ -52,4 +52,24 @@ Subnet이 생성된 모습입니다.
 
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/ec2_4.jpg)
 
-그렇게 해서 인스턴스까지 생성된 모습입니다.
+그렇게 해서 인스턴스까지 생성된 모습입니다. 위처럼 public ip가 없다면 좌측 메뉴의 탄력적 IP메뉴에서 IP를 할당받아 적용할 수 있으며 그렇지 않으면 생성단계떄 인스턴스 구성 항목에서 public ip를 가진채로 생성할수도 있습니다.
+
+4. 인터넷 게이트웨이 만들기
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/igw_1.jpg)
+
+VPC를 만들고, Subnet을 만들고, 인스턴스를 만들었으니 이제 외부와의 연결을 위해서 인터넷 게이트웨이를 만듭니다. 서비스의 VPC메뉴로 돌아가서 좌측의 인터넷 게이트웨이 메뉴로 들어온 모습입니다.
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/igw_2.jpg)
+
+인터넷 게이트웨이는 아주 심플하게 이름만 입력하면 생성할 수 있습니다.
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/igw_3.jpg)
+
+그렇게 생성된 모습입니다. 하지만 생성된 직후에는 제 역할을 하지 못하니 동작을 위해 마우스 우클릭이나, 인터넷 게이트웨이를 클릭한 후 상단의 작업 버픈을 클릭, VPC에 연결 버튼을 입력해 줍니다.
+
+연결할 전에 생성한 myVPC를 선택한후 연결해 주시면
+
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case2/igw_4.jpg)
+
+이렇게 attached상태가 뜨며 연결이 됩니다.
