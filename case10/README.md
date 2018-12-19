@@ -1,8 +1,7 @@
-**AWS기초 및 활용** 
+**인스턴스 이미지 만들기** 
+-----
 
-VPC 구성하기
 
-
-# Dongjin AWS VPC TEST
-
-![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1.png)
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case10/images/img00.png)
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case10/images/img01.png)
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case10/images/img02.png)
