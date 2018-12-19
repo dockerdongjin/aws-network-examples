@@ -1,5 +1,5 @@
 **AWS기초 및 활용** 
-
+*****
 
 >[도메인등록](https://github.com/dockerdongjin/aws-network-examples/tree/master/case1)
 
@@ -17,7 +17,7 @@
 
 >[AMI 공유하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case8)
 
->[EC2 인스턴서에 EBS볼륨 연결하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case9)
+>[EC2 인스턴스에서 EBS볼륨 연결하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case9)
 
 
 
