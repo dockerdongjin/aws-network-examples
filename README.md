@@ -23,6 +23,4 @@
 
 > [AMI 다른 리전으로 복사하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case11)
 
-# Dongjin AWS VPC TEST
-
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1.png)
