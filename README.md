@@ -1,9 +1,9 @@
 **AWS기초 및 활용** 
 *****
 
->[도메인등록](https://github.com/dockerdongjin/aws-network-examples/tree/master/case1)
+>[도메인등록](https://github.com/dockerdongjin/aws-network-examples/tree/master/case1) (완료)
 
->[VPC 구성하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case2)
+>[VPC 구성하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case2) (완료)
 
 >[로드밸런스](https://github.com/dockerdongjin/aws-network-examples/tree/master/case3)
 
@@ -22,7 +22,5 @@
 > [인스턴스 이미지 만들기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case10)
 
 > [AMI 다른 리전으로 복사하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case11)
-
-# Dongjin AWS VPC TEST
 
 ![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1.png)
