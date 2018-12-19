@@ -15,7 +15,7 @@
 
 >[VPCPeering](https://github.com/dockerdongjin/aws-network-examples/tree/master/case7)
 
->[AMI 공유하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case8)
+>[AMI 공유하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case8) (완료)
 
 >[EC2 인스턴스에서 EBS볼륨 연결하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case9) (완료)
 
