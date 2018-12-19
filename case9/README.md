@@ -30,11 +30,11 @@
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img09.png)
 인스턴스에 ssh로 터미널로 접속한다.(이미 만들어 놓은 키를 이용)
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img10.png)
-#sudo bash
-#mkfs -t ext4 /dev/sdf
-명령어로 포맷한다.
+> #sudo bash
+> #mkfs -t ext4 /dev/sdf
+> 명령어로 포맷한다.
 
-```$ ls /dev/sdf -al
-```$ mount /dev/sdf /mnt
+1. $ ls /dev/sdf -al
+2. $ mount /dev/sdf /mnt
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img11.png)
 /mnt 에 9.2G 의 저장공간이 생겼다.
