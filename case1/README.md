@@ -19,3 +19,7 @@
 ![도메인등록3](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-3.jpg)<br><br><br>
 ![도메인등록4](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-4.jpg)<br><br><br>
 
+4. 등록된 __Hosted Zone__ 파일은 아래와 같습니다. 아래의 도메인명을 클릭하여 들어갑니다.<br>
+
+![도메인등록5](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-5.jpg)<br><br><br>
+
