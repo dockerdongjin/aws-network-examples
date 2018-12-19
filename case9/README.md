@@ -19,3 +19,7 @@
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img01.png)
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img02.png)
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img03.png)
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img04.png)
+만들어진 볼륨에 이름을 붙여놓는다. (작업시 확인하기 쉽다.)
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img05.png)
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img06.png)
