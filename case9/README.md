@@ -13,4 +13,4 @@
 
 -----
 서비스 -> EC2 -> 좌측메뉴의 "ELASTIC BLOCK STORE"에서 볼륨 메뉴를 클릭한다.
-![구성1](https://github.com/dockerdongjin/aws-network-examples/tree/master/case9/images/img00.png)
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img00.png)
