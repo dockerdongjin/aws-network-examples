@@ -19,7 +19,7 @@
 
 >[EC2 인스턴스에서 EBS볼륨 연결하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case9)
 
-
+>[AMI 다른 리전으로 복사하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case10)
 
 
 # Dongjin AWS VPC TEST
