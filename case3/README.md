@@ -29,21 +29,24 @@ ROUTER53메뉴에서 'Create HostsZone'을 클릭합니다.
 ![구성6](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/router53_1.JPG)
 
 ELB에서 생성된도메인 네임을 DNS도메인과 연결시킵니다.
-![구성5](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/router53_2.JPG)
+![구성7](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/router53_2.JPG)
 
 elb로 사용될 도메인이 생성된것을 확인합니다.
-https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/router53_3.JPG
+![구성8](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/router53_3.JPG)
 
 web서버 설정
 ------
-https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/server_AB%EA%B2%B0%EA%B3%BC_2.JPG
+
 web A,B 아파치를 설치하고 index페이지를 구별하기 쉽게 설정합니다. 해당 웹서버 접근시 'SERVER A'라는 메시지가 나타납니다.
-https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/webserver_3_a.JPG
+![구성9](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/webserver_3_a.JPG)
+
 위의 방법과 마찬가지로  웹서버 접근 시 'SERVER B'가 나타나게 설정합니다. 
-https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/webserver_3_b.JPG
+![구성10](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/webserver_3_b.JPG)
 
 
 결과확인
 ------
 ROUTER53에 설정한 DNS주소로 접근 시 serverA와 serverB가 Hash방식으로 동작하여 각각 번갈아가며 화면에 출력됩니다.
-https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/webserver_3_%EA%B2%B0%EA%B3%BC%ED%99%95%EC%9D%B8.JPG
+![구성10](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/webserver_3_%EA%B2%B0%EA%B3%BC%ED%99%95%EC%9D%B8.JPG)
+
+![구성11](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/server_AB%EA%B2%B0%EA%B3%BC_2.JPG)
