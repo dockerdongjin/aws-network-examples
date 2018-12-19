@@ -1,7 +1,7 @@
 **AWS기초 및 활용** 
 *****
 
->[도메인등록](https://github.com/dockerdongjin/aws-network-examples/tree/master/case1)
+>[도메인등록](https://github.com/dockerdongjin/aws-network-examples/tree/master/case1) (완료)
 
 >[VPC 구성하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case2)
 
