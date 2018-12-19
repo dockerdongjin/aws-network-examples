@@ -27,7 +27,8 @@
 
 ![도메인등록6](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-6.jpg)<br><br><br>
 
-6. 도메인을 신청한 호스팅 업체의 사이트로 이동하여 __서비스 관리__ 혹은 __마이페이지__ 메뉴로 이동하여 해당 도메인의 __네임서버__ 정보를 방금전 위쪽에서 확인한 4개의 값으로 각각 변경해줍니다.<br>
+6. 도메인을 신청한 호스팅 업체의 사이트(예 : 가비아,까페24, 고도몰)로 이동하여 __서비스 관리__ 혹은 __마이페이지__ 메뉴로 이동하여 해당 도메인의 __네임서버__ 정보를 방금전 위쪽에서 확인한 4개의 값으로 각각 변경해줍니다.<br>
 
-![도메인등록7](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-7.jpg)<br><br><br>
+![도메인등록7](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-7-2.jpg)<br><br><br>
+![도메인등록8](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-7.jpg)<br><br><br>
 
