@@ -32,3 +32,13 @@
 ![도메인등록7](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-7-2.jpg)<br><br><br>
 ![도메인등록8](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-7.jpg)<br><br><br>
 
+7. __Create Record Set__ 버튼을 클릭후 오른쪽에 새로운 레코드에 대한 정보를 입력합니다. <br>
+
++ __Name__ : __www__  자신의 도메인주소 앞에 www가 붙도록 설정하고자 하는 경우 사용합니다. 예) www.도메인주소
++ __Type__ : 기본적으로 __A - IPv4 Address__ 로 설정합니다.
++ __Value__ : 현재 도메인주소와 연결한 서버의 아이피 주소를 입력합니다.
+
+![도메인등록8](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-8.jpg)<br><br><br>
+
+
+
