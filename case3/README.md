@@ -6,4 +6,4 @@
 
 # 
 
-![구성1](https://github.com/dockerdongjin/aws-network-examples/case3/img/EC2.JPG)
+![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/EC2.JPG?raw=true)
