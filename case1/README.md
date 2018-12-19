@@ -23,6 +23,11 @@
 
 ![도메인등록5](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-5.jpg)<br><br><br>
 
-5. 해당 도메인 주소를 클릭후에 들어오면 아래의 그림과 같이 설정되어져 있습니다. 여기서 __Type(타입) NS__ 부분에 설정된 4개의 __Value(값)__ 을 도메인을 신청한 호스팅 업체에 __네임서버__ 로 등록을 해줘야 합니다. 
+5. 해당 도메인 주소를 클릭후에 들어오면 아래의 그림과 같이 설정되어져 있습니다. 여기서 __Type(타입) NS__ 부분에 설정된 4개의 __Value(값)__ 을 도메인을 신청한 호스팅 업체에 __네임서버__ 로 등록을 해줘야 합니다.<br>
 
 ![도메인등록6](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-6.jpg)<br><br><br>
+
+6. 도메인을 신청한 호스팅 업체의 사이트로 이동하여 __서비스 관리__ 혹은 __마이페이지__ 메뉴로 이동하여 해당 도메인의 __네임서버__ 정보를 방금전 위쪽에서 확인한 4개의 값으로 각각 변경해줍니다.<br>
+
+![도메인등록7](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-7.jpg)<br><br><br>
+
