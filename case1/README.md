@@ -2,4 +2,4 @@
 
 ### 1. Route53을 이용한 도메인 등록
 
-![도메인등록1] (https://github.com/dockerdongjin/aws-network-examples/aws-network-examples/case1-1.jpg)
+![도메인등록1] (https://github.com/dockerdongjin/aws-network-examples/case1-1.jpg)
