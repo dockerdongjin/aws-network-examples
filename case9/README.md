@@ -26,3 +26,7 @@
 만들어진 볼륨을 인스턴스에 연결한다.
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img07.png)
 ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img08.png)
+볼륨 목록에서 in-use 에 녹색 아이콘이 보이면 인스턴스에 연결이 완료.
+![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case9/images/img09.png)
+인스턴스에 ssh로 터미널로 접속한다.(이미 만들어 놓은 키를 이용)
+ 
