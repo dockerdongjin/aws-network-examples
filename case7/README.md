@@ -44,3 +44,35 @@ __EC2인스턴스__ 생성을 위해 이동 후 위에서 생성한 2개의 VPC 
 ![구성24](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-19.jpg)<br><br><br>
 ![구성25](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-20.jpg)<br><br><br>
 
+
+5. EC2인스턴스 생성후에 4번에서 잠시 보류했던 __VPC 라우팅 테이블__ 수정을 하도록 하겠습니다.<br>
+우선은 __피어링(peeriing)__ 이 적용되기 전 2 VPC가 서로 __Ping__ 이 되지 않는 형태를 보도록 하겠습니다. <br>
+__(중요)__ 첫번째 VPC(peeringVPC-A)에 생성된 EC2인스턴스에 SSH접속이 가능하도록 __EIP(Elasitic IP)__ 를 설정하도록 하겠습니다.<br>
+먼저 EIP를 하나 생성하기 위해서 아래 그림과 같이 실행해주세요.
+
+
+![구성26](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-21.jpg)<br><br><br>
+![구성27](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-22.jpg)<br><br><br>
+![구성28](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-23.jpg)<br><br><br>
+
+6. 생성된 __EIP__ 를 첫번째 VPC(peeringVPC-A)내에 생성된 EC2인스턴스에 등록합니다.<br>
+
+![구성29](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-25.jpg)<br><br><br>
+![구성30](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-26.jpg)<br><br><br>
+![구성31](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-27.jpg)<br><br><br>
+![구성32](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-28.jpg)<br><br><br>
+
+7. EIP가 할당된 EC2인스턴스에 SSH프로그램을 이용하여 접속 후 2번째 VPC(peeringVPC-B)에 있는 EC2인스턴슨에 Ping을 보냅니다.<br>
+Ping을 보냈을때 아래의 그림과 같이 핑에 대한 응답이 없음으로 표시되면 됩니다. (현재까지 두 VPC내에 EC2는 서로 통신이 되지 않는 상태입니다.)
+
+![구성33](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-29.jpg)<br><br><br>
+
+8. 서로 다른 VPC의 두 EC2인스턴스과 통신이 되도록 하기 위해서 __피어링(Peering)__ 설정을 하도록 하겠습니다.<br>
+피어링을 생성하기 위해 아래 그림의 메뉴로 이동하여 피어링을 생성합니다.<br>
+
+>> 피어링 연결 이름 태그 : peeringVPC_A_B
+>>
+
+![구성34](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-31.jpg)<br><br><br>
+![구성34](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-32.jpg)<br><br><br>
+
