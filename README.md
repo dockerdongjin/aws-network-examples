@@ -23,4 +23,8 @@
 
 > [AMI 다른 리전으로 복사하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case11) (완료)
 
-![구성1](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1.png)
+> [Amazon CLI](https://github.com/dockerdongjin/aws-network-examples/tree/master/case12)
+
+> [무중단 신 버전 배포](https://github.com/dockerdongjin/aws-network-examples/tree/master/case13) p147
+
+> 
