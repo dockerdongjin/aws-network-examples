@@ -1,6 +1,6 @@
 **AWS CloudFront** 
 
->[S3 버킷 만들기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case6)
+>[S3 버킷 만들기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case6/case1)
 
 
 CloudFront 기능으로 EdgeLocation에 배포되는 과정
