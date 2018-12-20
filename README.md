@@ -11,7 +11,7 @@
 
 >[AutoScaling](https://github.com/dockerdongjin/aws-network-examples/tree/master/case5)
 
->[S3버킷만들기 & CloudFront](https://github.com/dockerdongjin/aws-network-examples/tree/master/case6)
+>[S3버킷만들기 & CloudFront](https://github.com/dockerdongjin/aws-network-examples/tree/master/case6) (완료)
 
 >[VPCPeering](https://github.com/dockerdongjin/aws-network-examples/tree/master/case7) (완료)
 
