@@ -30,7 +30,6 @@ VPC(Virtual Private Network)간에 트래픽을 라우팅 할수 있도록 하�
 
 ![구성14](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-11.jpg)<br><br><br>
 ![구성15](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-12.jpg)<br><br><br>
-![구성16](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-13.jpg)<br><br><br>
 
 4. 여기까지 구성후 VPC에 __라우팅 테이블__ 정보를 수정해야 하지만 아직 피어링이 설정되지 않은 상태이니 우선적으로 __EC2 인스턴스를 먼저 생성__ 후에 피어링 설정을 한 후에 라우팅 테이블을 수정하도록 하겠습니다. <br>
 > __EC2인스턴스__ 생성을 위해 이동 후 위에서 생성한 2개의 VPC 서브넷내에 각각 EC2인스턴스를 아래와 같은 형태로 생성합니다.
