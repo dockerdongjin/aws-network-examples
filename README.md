@@ -13,7 +13,7 @@
 
 >[CloudFront](https://github.com/dockerdongjin/aws-network-examples/tree/master/case6)
 
->[VPCPeering](https://github.com/dockerdongjin/aws-network-examples/tree/master/case7)
+>[VPCPeering](https://github.com/dockerdongjin/aws-network-examples/tree/master/case7) (완료)
 
 >[AMI 공유하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case8) (완료)
 
