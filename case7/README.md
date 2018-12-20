@@ -15,6 +15,7 @@ VPC(Virtual Private Network)간에 트래픽을 라우팅 할수 있도록 하�
 ![구성4](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-4.jpg)<br><br><br>
 ![구성5](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-5.jpg)<br><br><br>
 ![구성6](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-6.jpg)<br><br><br>
+<hr>
 
 2. 구성한 2개의 __VPC__ 내에 __Subnet__ 을 각각 생성합니다.<br>
 
