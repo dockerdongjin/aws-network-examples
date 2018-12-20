@@ -62,17 +62,49 @@ __(중요)__ 첫번째 VPC(peeringVPC-A)에 생성된 EC2인스턴스에 SSH접�
 ![구성31](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-27.jpg)<br><br><br>
 ![구성32](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-28.jpg)<br><br><br>
 
+6-2. 그리고 해당 EC2인스턴스에 접속하기 위하여 EC2인스턴스가 포함된 VPC의 __라우팅테이블__ 을 아래와 같이 0.0.0.0/0이 추가되도록 수정합니다.<br>
+
+![구성32](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-8.jpg)<br><br><br>
+
 7. EIP가 할당된 EC2인스턴스에 SSH프로그램을 이용하여 접속 후 2번째 VPC(peeringVPC-B)에 있는 EC2인스턴슨에 Ping을 보냅니다.<br>
 Ping을 보냈을때 아래의 그림과 같이 핑에 대한 응답이 없음으로 표시되면 됩니다. (현재까지 두 VPC내에 EC2는 서로 통신이 되지 않는 상태입니다.)
 
-![구성33](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-29.jpg)<br><br><br>
+![구성33](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case11-21.jpg)<br><br><br>
 
 8. 서로 다른 VPC의 두 EC2인스턴스과 통신이 되도록 하기 위해서 __피어링(Peering)__ 설정을 하도록 하겠습니다.<br>
 피어링을 생성하기 위해 아래 그림의 메뉴로 이동하여 피어링을 생성합니다.<br>
 
->> 피어링 연결 이름 태그 : peeringVPC_A_B
->>
+__VPC(요청자)* :__ peeringVPC-A<br>
+__VPC(수락자)* :__ peeringVPC-B<br>
+
 
 ![구성34](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-31.jpg)<br><br><br>
-![구성34](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-32.jpg)<br><br><br>
+![구성35](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-32.jpg)<br><br><br>
+![구성36](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-33.jpg)<br><br><br>
+![구성37](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-34.jpg)<br><br><br>
+![구성38](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-35.jpg)<br><br><br>
+
+8. 피어링(peering) 생성 후 __요청자--->수락자__ 수락자의 수락이 필요합니다. 수락을 위해서 아래의 그림과 같이 실행해주세요.<br>
+
+![구성38](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-36.jpg)<br><br><br>
+![구성38](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-37.jpg)<br><br><br>
+![구성38](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-38.jpg)<br><br><br>
+
+9. 피어링(peering) 요청과 수락이 완료되면 2개의 VPC에 라우팅테이블에 피어링을 이용한 통신이 가능하도록 라우팅테이블을 수정해야 합니다.<br>
+우선 첫번째 VPC(peeringVPC-A) 라우팅 테이블을 아래의 그림과 같이 수정합니다.<br>
+
+__10.7.0.0/16(peerginVPC-B)인 경우 Peering Connection을 이용하여 통신하도록 설정.__ <br>
+__0.0.0.0/0(그외의 아이피)인 경우에는 해당 VPC의 인터넷 게이트웨이를 이용하여 통신하도록 설정.__ <br>
+
+
+![구성39](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-14.jpg)<br><br><br>
+![구성40](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-15.jpg)<br><br><br>
+![구성41](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-16.jpg)<br><br><br>
+![구성42](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-17.jpg)<br><br><br>
+
+
+
+
+
+
 
