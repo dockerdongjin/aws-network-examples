@@ -27,4 +27,7 @@
 
 > [무중단 신 버전 배포](https://github.com/dockerdongjin/aws-network-examples/tree/master/case13) p147
 
-![구성](https://github.com/dockerdongjin/aws-network-examples/blob/master/img/aws-networkimg.png)
+
+> 네트워크 실습 구성도
+
+>> ![구성](https://github.com/dockerdongjin/aws-network-examples/blob/master/img/aws-networkimg.png)
