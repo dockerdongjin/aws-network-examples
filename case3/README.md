@@ -37,7 +37,7 @@ ROUTER53 설정
 web서버 설정
 ------
 
-1)web A,B 아파치를 설치하고 index페이지를 구별하기 쉽게 설정합니다. 해당 웹서버 접근시 'SERVER A'라는 메시지가 나타납니다.
+1)web A,B 아파치를 설치하고 index페이지를 구별하기 쉽게 설정합니다.해당 웹서버 접근시 'SERVER A'라는 메시지가 나타납니다.
 ![구성9](https://github.com/dockerdongjin/aws-network-examples/blob/master/case3/img/webserver_3_a.JPG)
 
 2)위의 방법과 마찬가지로  웹서버 접근 시 'SERVER B'가 나타나게 설정합니다. 
