@@ -118,7 +118,7 @@ __두번째 VPC는 외부(인터넷)연결이 필요없으므로 0.0.0.0/0은 �
 ping을 보냈을때 이번에는 정상적으로 통신이 되야합니다. ^^
 
 
-![구성46](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-39.jpg)<br><br><br>
+![구성46](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-39.jpg)<br><br><br>
 
 
 
