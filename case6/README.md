@@ -1,6 +1,6 @@
-**AWS기초 및 활용** 
+**AWS CloudFront** 
 
-VPC 구성하기
+CloudFront 설정
 
 
 # Dongjin AWS VPC TEST
