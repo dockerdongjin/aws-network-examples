@@ -7,7 +7,7 @@
 
 >[로드밸런스](https://github.com/dockerdongjin/aws-network-examples/tree/master/case3)   (완료)
 
->[NAT Gateway](https://github.com/dockerdongjin/aws-network-examples/tree/master/case4)
+>[NAT Gateway](https://github.com/dockerdongjin/aws-network-examples/tree/master/case4) (완료)
 
 >[AutoScaling](https://github.com/dockerdongjin/aws-network-examples/tree/master/case5)
 
