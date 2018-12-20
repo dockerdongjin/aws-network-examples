@@ -39,7 +39,7 @@
 + __Value__ : 현재 도메인주소와 연결한 서버의 아이피 주소를 입력합니다.
 
 ![도메인등록8](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-8.jpg)<br><br><br>
-![도메인등록8]https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-8.jpg<br><br><br>
+![도메인등록8](https://github.com/dockerdongjin/aws-network-examples/blob/master/case1/img/case1-8.jpg)<br><br><br>
 
 8. 도메인 주소가 적용되기까지 약간의 시간이 필요합니다. 잠시 기다린 후에 브라우저를 실행후 등록한 도메인 주소를 입력해보신후 정상적으로 출력된다면 도메인 주소 등록이 완료됩니다. <br>
 
