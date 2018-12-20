@@ -96,11 +96,29 @@ __VPC(수락자)* :__ peeringVPC-B<br>
 __10.7.0.0/16(peerginVPC-B)인 경우 Peering Connection을 이용하여 통신하도록 설정.__ <br>
 __0.0.0.0/0(그외의 아이피)인 경우에는 해당 VPC의 인터넷 게이트웨이를 이용하여 통신하도록 설정.__ <br>
 
-
 ![구성39](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-14.jpg)<br><br><br>
 ![구성40](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-15.jpg)<br><br><br>
 ![구성41](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-16.jpg)<br><br><br>
 ![구성42](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-17.jpg)<br><br><br>
+
+10. 두번째 VPC(peeringVPC-B) 라우팅 테이블을 아래와 같이 수정합니다.<br>
+
+__10.6.0.0/16(peerginVPC-A)인 경우 Peering Connection을 이용하여 통신하도록 설정.__ <br>
+__두번째 VPC는 외부(인터넷)연결이 필요없으므로 0.0.0.0/0은 설정하지 않습니다.__<br>
+
+![구성43](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-18.jpg)<br><br><br>
+![구성44](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-19.jpg)<br><br><br>
+![구성45](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-20.jpg)<br><br><br>
+
+
+11. 두 VPC의 라우팅 테이블 수정이 완료됐다면 다시 __peeringVPC-A의 EC2인스턴스__ 에서 __peeringVPC-B의 EC2인스턴스__ 에 Ping을 보내봅니다.<br>
+ping을 보냈을때 이번에는 정상적으로 통신이 되야합니다. ^^
+
+
+![구성46](https://github.com/dockerdongjin/aws-network-examples/blob/master/case7/img/case7-11-39.jpg)<br><br><br>
+
+
+
 
 
 
