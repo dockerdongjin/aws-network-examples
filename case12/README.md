@@ -10,12 +10,13 @@ AWS CLI 설정하기
 AWS IAM 에서 사용자를 추가한다. (web page)
 
 
-➜ ~ aws configure
-AWS Access Key ID [None]: AKIAIGFVJJOEDXXXXGA
-AWS Secret Access Key [None]: y5ZVV/0HKCHxlQPaW3We4dXFQ3cawOH3hKrJxxxxxxxoW6h
-Default region name [None]: ap-northeast-2
-Default output format [None]: json
-아래 파란색 vlaue 는 자신의 값에 맞춰 확인해서 입력한다.
+>➜ ~ aws configure
+>>AWS Access Key ID [None]: AKIAIGFVJJOEDXXXXGA
+>>AWS Secret Access Key [None]: y5ZVV/0HKCHxlQPaW3We4dXFQ3cawOH3hKrJxxxxxxxoW6h
+>>Default region name [None]: ap-northeast-2
+>>Default output format [None]: json
+
+>아래 파란색 vlaue 는 자신의 값에 맞춰 확인해서 입력한다.
 ➜ aws ec2 create-vpc --cidr-block 10.0.0.0/16
 ➜ aws ec2 create-subnet --vpc-id vpc-0c7dc3922a0c5db85 --cidr-block 10.0.1.0/24
 ➜ aws ec2 create-subnet --vpc-id vpc-0c7dc3922a0c5db85 --cidr-block 10.0.2.0/24
