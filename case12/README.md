@@ -73,5 +73,7 @@ AWS IAM 에서 사용자를 추가한다. (web page)
 작업로그 저장하기
 >➜  ~ history | grep 'aws ec2' > aws-job-history.txt
 
+myVPCkey 를 사용하는 인스턴스만 보기
+>➜  ~ aws ec2 describe-instances --filter 'Name=key-name,Values=myVPCkey'
 
 > ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case12/images/img00.png)
