@@ -2,12 +2,13 @@
 -----
 
 리눅스 터미널 작업환경
+(https://docs.google.com/document/d/1LsqSMYPcfdAmhAsMY4LhZOP1YdBUaA5rilqpGkhM4g0/edit)
 
-sudo apt-get install awscli
 
 
 AWS CLI 설정하기
 AWS IAM 에서 사용자를 추가한다. (web page)
+
 
 ➜ ~ aws configure
 AWS Access Key ID [None]: AKIAIGFVJJOEDXXXXGA
