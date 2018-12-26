@@ -84,3 +84,6 @@ myVPCkey 를 사용하는 인스턴스만 보기
 
 리전에서 인스턴스 이름으로 찾기
 >➜  ~ aws ec2 describe-instances --filters "Name=tag:Name,Values=*인스턴스이름*" --output json --query 'Reservations[*].Instances[*].[PrivateIpAddress,InstanceId,Tags[?Key==`Name`].Value]' --region ap-northeast-2
+
+EIP 할당 받기
+>➜  ~ aws ec2 allocate-address
