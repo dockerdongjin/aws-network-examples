@@ -70,7 +70,7 @@ AWS IAM 에서 사용자를 추가한다. (web page)
 >>>[ec2-user@ip-10-0-0-230 ~]$
 
 
-작업로그 저장하기 
+작업로그 저장하기
 >➜  ~ history | grep 'aws ec2' > aws-job-history.txt
 
 myVPCkey 를 사용하는 인스턴스만 보기
