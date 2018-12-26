@@ -1,6 +1,7 @@
 ** Lambda 사용하기 ** 
 -----
 
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/img00.png)
 
 > 사용자가 S3 버킷(객체 생성 이벤트)에 객체를 업로드합니다.
 > Amazon S3가 객체 생성 이벤트를 감지합니다.
@@ -12,4 +13,4 @@
 
 
 
-> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case12/images/img00.png)
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/img00.png)
