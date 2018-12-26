@@ -27,6 +27,8 @@
 
 > [무중단 신 버전 배포](https://github.com/dockerdongjin/aws-network-examples/tree/master/case13) p147
 
+> [Lambda](https://github.com/dockerdongjin/aws-network-examples/tree/master/case14)
+
 
 > 네트워크 실습 구성도
 
