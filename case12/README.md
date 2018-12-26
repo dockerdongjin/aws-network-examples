@@ -81,3 +81,6 @@ myVPCkey 를 사용하는 인스턴스만 보기
 테이블로 인스턴스 보기
 >➜  ~ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.AvailabilityZone, State.Name, InstanceId,InstanceType,Platform,Tags.Value,State.Code,Tags.Values]' --output table
 > ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case12/images/img01.png)
+
+리전에서 인스턴스 이름으로 찾기
+aws ec2 describe-instances --filters "Name=tag:Name,Values=*인스턴스이름*" --output json --query 'Reservations[*].Instances[*].[PrivateIpAddress,InstanceId,Tags[?Key==`Name`].Value]' --region ap-northeast-2
