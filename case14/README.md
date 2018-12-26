@@ -15,13 +15,13 @@
 
 
 
-> aws cli 에서 S3 버킷을 생성합니다.
+> 1-1) aws cli 에서 S3 버킷을 생성합니다.
 >> aws> s3 mb s3://data.valuedesign.co.kr
-
+>>
 >> make_bucket: data.valuedesign.co.kr
-
+>>
 >> aws> s3 mb s3://dataresized.valuedesign.co.kr
-
+>>
 >> make_bucket: dataresized.valuedesign.co.kr
 
 
