@@ -87,3 +87,6 @@ myVPCkey 를 사용하는 인스턴스만 보기
 
 EIP 할당 받기
 >➜  ~ aws ec2 allocate-address
+
+EIP 사용현황 보기
+>➜  ~ aws> ec2 describe-addresses --output table
