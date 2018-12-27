@@ -90,3 +90,31 @@ EIP 할당 받기
 
 EIP 사용현황 보기
 >➜  ~ aws> ec2 describe-addresses --output table
+
+리전 리스트 보기
+>aws> ec2 describe-regions --output table
+----------------------------------------------------------
+|                     DescribeRegions                    |
++--------------------------------------------------------+
+||                        Regions                       ||
+|+-----------------------------------+------------------+|
+||             Endpoint              |   RegionName     ||
+|+-----------------------------------+------------------+|
+||  ec2.ap-south-1.amazonaws.com     |  ap-south-1      ||
+||  ec2.eu-west-3.amazonaws.com      |  eu-west-3       ||
+||  ec2.eu-north-1.amazonaws.com     |  eu-north-1      ||
+||  ec2.eu-west-2.amazonaws.com      |  eu-west-2       ||
+||  ec2.eu-west-1.amazonaws.com      |  eu-west-1       ||
+||  ec2.ap-northeast-2.amazonaws.com |  ap-northeast-2  ||
+||  ec2.ap-northeast-1.amazonaws.com |  ap-northeast-1  ||
+||  ec2.sa-east-1.amazonaws.com      |  sa-east-1       ||
+||  ec2.ca-central-1.amazonaws.com   |  ca-central-1    ||
+||  ec2.ap-southeast-1.amazonaws.com |  ap-southeast-1  ||
+||  ec2.ap-southeast-2.amazonaws.com |  ap-southeast-2  ||
+||  ec2.eu-central-1.amazonaws.com   |  eu-central-1    ||
+||  ec2.us-east-1.amazonaws.com      |  us-east-1       ||
+||  ec2.us-east-2.amazonaws.com      |  us-east-2       ||
+||  ec2.us-west-1.amazonaws.com      |  us-west-1       ||
+||  ec2.us-west-2.amazonaws.com      |  us-west-2       ||
+|+-----------------------------------+------------------+|
+aws>
