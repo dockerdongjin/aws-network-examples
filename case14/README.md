@@ -37,8 +37,11 @@
 >>
 >> make_bucket: dataresized.valuedesign.co.kr
 
-> 1-0-1) Amazon S3 이벤트 알림 구성
 
+> 1-0-1) Amazon S3 이벤트 알림 구성
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/img02.png)
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/img03.png)
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/img04.png)
 
 
 > 1-1)사용자가 S3 버킷(객체 생성 이벤트)에 객체를 업로드합니다.
