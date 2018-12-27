@@ -50,10 +50,10 @@ AWS IAM 에서 사용자를 추가한다. (web page)
 >➜  ~ chmod 400 myVPCkey.pem
 
 보안그룹 만들기
->➜  ~ aws ec2 create-security-group --group-name SSHAccess --description "Security group for SSH access" --vpc-id vpc-0f1a4720f9e3ca7f4
->➜  ~ aws ec2 authorize-security-group-ingress --group-id sg-07b69eb315d7fd464 --protocol tcp --port 22 --cidr 0.0.0.0/0
->➜  ~ aws ec2 run-instances --image-id ami-0b4fdb56a00adb616 --count 1 --instance-type t2.micro --key-name myVPCkey --security-group-ids sg-07b69eb315d7fd464 --subnet-id subnet-011a57b5dd5b060a1
->➜  ~ aws ec2 describe-instances --instance-id i-0de3817b296641647  (인스턴스 상태)
+> ➜  ~ aws ec2 create-security-group --group-name SSHAccess --description "Security group for SSH access" --vpc-id vpc-0f1a4720f9e3ca7f4
+> ➜  ~ aws ec2 authorize-security-group-ingress --group-id sg-07b69eb315d7fd464 --protocol tcp --port 22 --cidr 0.0.0.0/0
+> ➜  ~ aws ec2 run-instances --image-id ami-0b4fdb56a00adb616 --count 1 --instance-type t2.micro --key-name myVPCkey --security-group-ids sg-07b69eb315d7fd464 --subnet-id subnet-011a57b5dd5b060a1
+> ➜  ~ aws ec2 describe-instances --instance-id i-0de3817b296641647  (인스턴스 상태)
 >>➜  ~ ssh -i myVPCkey.pem ec2-user@13.209.85.246
 >>>The authenticity of host '13.209.85.246 (13.209.85.246)' can't be established.
 >>>ECDSA key fingerprint is SHA256:ndEKjqWpPUaihEgQccrJLxcnmLr+b5INgZlcBF0pUqg.
