@@ -4,7 +4,9 @@
 >SNS 설정 (푸시 서비스 | SNS 푸시 알림 서비스 | Amazon Web Services)
 
 >> sns create-topic --name my-topic
+
 >> sns subscribe --topic-arn arn:aws:sns:ap-northeast-2:376178164160:my-topic --protocol email --notification-endpoint atmega@naver.com
+
 >> sns publish --topic-arn arn:aws:sns:ap-northeast-2:376178164160:my-topic --message "Hello World!" 
 
 
