@@ -31,6 +31,32 @@
 
 
 
+이미지 파일을 Resize 하는 Lambda 기능
+서비스 -> Lambda -> 함수 생성 -> AWS Serverless Application Repository 를 선택후 검색창에 "resize" 를 입력한다.
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/lambda00.png)
+resize 어플리케이션을 선택한다.
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/lambda01.png)
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/lambda02.png)
+> 어플리케이션 설정 정보를 입력하고 배포를 클릭한다.
+> S3 메뉴에서 버킷을 확인한다. 어플리케이션에서 설정한 desc2.valuedesign.co.kr 버킷이 자동으로 만들어지지 않아 수동으로 만든다.
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/lambda03.png)
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/lambda04.png)
+> sorc2.valuedesign.co.kr 버킷에 이미지파일을 업로드한다.
+> ![메뉴](https://github.com/dockerdongjin/aws-network-examples/blob/master/case14/images/lambda05.png)
+> desc2.valuedesign.co.kr 버킷에 이미지파일 사이즈가 작아진 것을 확인한다.
+> 만들어진 어플리케이션은 CloudFormation 메뉴에서 확인이 가능하다.
+
+
+
+
+
+
+
+
+
+
+
+
 > 1-0-0) aws cli 에서 S3 버킷을 생성합니다.
 >> aws> s3 mb s3://data.valuedesign.co.kr
 >>
