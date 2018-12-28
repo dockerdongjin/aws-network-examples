@@ -1,6 +1,8 @@
 **AWS기초 및 활용** 
 *****
 
+>[클라우드 ping 테스트](https://www.cloudping.info)
+
 >[도메인등록](https://github.com/dockerdongjin/aws-network-examples/tree/master/case1) (완료)
 
 >[VPC 구성하기](https://github.com/dockerdongjin/aws-network-examples/tree/master/case2) (완료)
