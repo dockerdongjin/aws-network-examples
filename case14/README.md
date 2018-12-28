@@ -5,10 +5,13 @@
 
 구독정보 만들기
 >> aws> sns create-topic --name my-topic
+
 구독 인증메일 보내기
 >> aws> sns subscribe --topic-arn arn:aws:sns:ap-northeast-2:376178164160:my-topic --protocol email --notification-endpoint atmega@naver.com
+
 구독정보에 메세지 보내기
->> aws> sns publish --topic-arn arn:aws:sns:ap-northeast-2:376178164160:my-topic --message "Hello World!" 
+>> aws> sns publish --topic-arn arn:aws:sns:ap-northeast-2:376178164160:my-topic --message "Hello World!"
+
 생성한 구독정보 리스트보기
 >> aws> sns list-subscriptions
 
